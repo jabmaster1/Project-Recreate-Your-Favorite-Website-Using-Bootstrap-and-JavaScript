@@ -26,7 +26,7 @@ function recordIncreaseCheck(articles){
     }
 }
 
-recordIncreaseCheck(174);
+recordIncreaseCheck(177);
 
 // Simple user greeting after logging in
 
@@ -37,7 +37,7 @@ greetUser("John");
 
 // displays all active users currently
 
-let usersOnline = ["John", "Jane", "Rando" , "Bob"];
+let usersOnline = ["John", "Jane", "Rando" , "Bob", "Jobe"];
 
 function activeUsers(){
     console.log("There are " + usersOnline.length + " active users currently.");
